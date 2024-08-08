@@ -13,4 +13,4 @@ This project aims to demonstrate the use of nmap and Wireshark for network scann
 # Demonstration Goals
 - <b><u>Network Setup</u></b>: Show IP addresses of Ubuntu and Kali machines and their ability to ping each other.
 - <b>SSH Login </b>: Demonstrate SSH login to Ubuntu VM from Kali VM and file transfer using scp.
-nmap Scans: Explain and show differences between TCP ACK scan and Xmas scan using Wireshark on Kali machine.
+- <b>nmap Scans </b>: Explain and show differences between TCP ACK scan and Xmas scan using Wireshark on Kali machine.
