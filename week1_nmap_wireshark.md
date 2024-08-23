@@ -16,5 +16,5 @@ This project aims to demonstrate the use of nmap and Wireshark for network scann
 - <b>nmap Scans </b>: Explain and show differences between TCP ACK scan and Xmas scan using Wireshark on Kali machine.
   
  # Visual demonstration
- - [video_demo](https://github.com/RNtag12/networkanalysis/blob/main/Week1_video_demo.zip)
+ - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week1_video_demo.zip)
 
