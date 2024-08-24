@@ -14,6 +14,11 @@ The primary goal of these homelab projects is to provide a comprehensive, hands-
 
 These projects will simulate real-world challenges and scenarios, allowing us to apply and test our skills in a controlled environment, ultimately preparing us for the complexities of the cybersecurity field.
 
+## Authors
+
+- [@rntagashobotse](https://www.github.com/RNtag12)
+- [@FrancisGomas](https://www.github.com/francisgomas)
+
 ### Tools and Technologies
 - **Kali Linux** 
 - **Wireshark**
@@ -22,7 +27,7 @@ These projects will simulate real-world challenges and scenarios, allowing us to
 - **Suricata/Snort** 
 - **iptables** 
 - **Metasploit Framework**
-- **Autopsy** 
+- **nginx** 
 
 ### Demonstration Goals
 
