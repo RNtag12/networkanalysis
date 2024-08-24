@@ -10,7 +10,7 @@ Practical experience is invaluable for understanding the complexities of network
 
 The primary goal of these homelab projects is to provide hands-on approach to learning cybersecurity. We aim to explore various facets of network security and we believe that working and learning together allows each author to bring their unique skills and experiences to the table. we can share insights, challenge assumptions, and approach problems from different angles. for the projects we are mainly focusing on:
 
-- **Network Analysis:** Understanding the complexities of network communication through network traffic analysis, vulnerability identification, and detection of malicious patterns.
+- **Network Analysis:**
 - **Packet Capture:** Using tools like Wireshark to capture and analyze network packets, giving us insight into the data flow within a network and identifying any suspicious activity.
 - **Network Creation and Configuration:** Setting up and configuring networks to simulate real-world scenarios, including the establishment of secure communication channels and the implementation of network security measures.
 - **Firewall Configuration:** Learning to configure and manage firewalls to protect networks from unauthorized access and potential threats.
