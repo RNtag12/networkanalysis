@@ -29,6 +29,11 @@ The primary goal of these homelab projects is to provide hands-on approach to le
 - **nginx**
 - **NAXSI**
 
+## Weekly project
+
+ - [Week1_project](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Week2_project](https://github.com/matiassingers/awesome-readme)
+
 ### Demonstration Goals
 
 The homelab projects are designed to demonstrate the following key objectives:
