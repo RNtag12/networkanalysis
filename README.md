@@ -44,7 +44,7 @@ The homelab projects are designed to demonstrate the following key objectives:
 
 ## Weekly project
 
- - [Week1_project: Network Analysis with Nmap and Wireshark]((https://github.com/RNtag12/networkanalysis/blob/main/week1_nmap_wireshark.md)
+ - [Week1_project: Network Analysis with Nmap and Wireshark](https://github.com/RNtag12/networkanalysis/blob/main/week1_nmap_wireshark.md)
  - [Week2_project](https://github.com/matiassingers/awesome-readme)
 
 ### Demonstration Goals
