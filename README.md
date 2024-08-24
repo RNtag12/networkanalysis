@@ -1,33 +1,33 @@
 # Homelab projects
 Practical experience is invaluable for understanding the complexities of network security, digital forensics, and the tools that defend against cyber threats. This collection of homelab projects aims to bridge the gap between theoretical knowledge and hands-on expertise in cybersecurity. Through these projects, we seek to deepen our understanding of network analysis, packet capture, firewall configuration, Intrusion Detection Systems (IDS), and digital forensics, all within a controlled, experimental environment.
 
-### Project Description
+# Authors
 
-The primary goal of these homelab projects is to provide a comprehensive, hands-on approach to learning cybersecurity. We aim to explore various facets of network security, focusing on:
+- [@rntagashobotse](https://www.github.com/RNtag12)
+- [@FrancisGomas](https://www.github.com/francisgomas)
 
-- **Network Analysis:** Understanding the intricacies of network communication by analyzing network traffic, identifying potential vulnerabilities, and recognizing malicious patterns.
+## Project Description
+
+The primary goal of these homelab projects is to provide hands-on approach to learning cybersecurity. We aim to explore various facets of network security and we believe that working and learning together allows each author to bring their unique skills and experiences to the table. we can share insights, challenge assumptions, and approach problems from different angles. for the projects we are mainly focusing on:
+
+- **Network Analysis:** Understanding the complexities of network communication through network traffic analysis, vulnerability identification, and detection of malicious patterns.
 - **Packet Capture:** Using tools like Wireshark to capture and analyze network packets, giving us insight into the data flow within a network and identifying any suspicious activity.
 - **Network Creation and Configuration:** Setting up and configuring networks to simulate real-world scenarios, including the establishment of secure communication channels and the implementation of network security measures.
 - **Firewall Configuration:** Learning to configure and manage firewalls to protect networks from unauthorized access and potential threats.
 - **Intrusion Detection Systems (IDS):** Implementing and fine-tuning IDS to detect and respond to potential cyber attacks, ensuring the security and integrity of the network.
 - **Digital Forensics:** Conducting forensic investigations to trace and analyze cyber incidents, preserving evidence for further analysis and legal proceedings.
 
-These projects will simulate real-world challenges and scenarios, allowing us to apply and test our skills in a controlled environment, ultimately preparing us for the complexities of the cybersecurity field.
-
-## Authors
-
-- [@rntagashobotse](https://www.github.com/RNtag12)
-- [@FrancisGomas](https://www.github.com/francisgomas)
 
 ### Tools and Technologies
 - **Kali Linux** 
 - **Wireshark**
 - **nmap**
 - **VirtualBox** 
-- **Suricata/Snort** 
-- **iptables** 
-- **Metasploit Framework**
-- **nginx** 
+- **Snort** 
+- **pfsense** 
+- **DVWA**
+- **nginx**
+- **NAXSI**
 
 ### Demonstration Goals
 
