@@ -23,7 +23,7 @@ The homelab projects are designed to demonstrate the following key objectives:
   
 2. **Effective Packet Capture and Analysis:** Showcase the use of Wireshark for capturing and analyzing packets to understand network communications and detect anomalies.
 
-3. **Secure Network Setup:** Illustrate the process of creating and configuring secure networks, including the implementation of encryption, VPNs, and secure protocols.
+3. **Secure Network Setup:** Illustrate the process of creating and configuring secure networks, including the implementation offirewalls and various security mechanisms.
 
 4. **Firewall Configuration and Management:** Display the skills required to configure and manage firewalls, ensuring that only authorized traffic is allowed within the network.
 
