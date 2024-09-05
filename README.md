@@ -6,7 +6,7 @@ Practical experience is invaluable for understanding the complexities of network
 - [@rntagashobotse](https://www.github.com/RNtag12)
 - [@FrancisGomas](https://www.github.com/francisgomas)
 
-## Project Description 
+## Project Description
 
 The primary goal of these homelab projects is to provide hands-on approach to learning cybersecurity. We aim to explore various facets of network security and we believe that working and learning together allows each author to bring their unique skills and experiences to the table. we can share insights, challenge assumptions, and approach problems from different angles. for the projects we are mainly focusing on:
 
