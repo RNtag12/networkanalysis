@@ -19,13 +19,15 @@ This project demonstrates two methods of network traversal: port forwarding and 
 
 # Demonstration Goals
 
-<u>Network Setup</u>: Simulate a public and private network using NAT Networks in VirtualBox. Display the IP addresses of the jump host and target Ubuntu machines.
-DVWA Access: Show that DVWA is accessible locally from the target machine and via the jump host.
-SSH Port Forwarding: Demonstrate SSH login from the Kali VM to the jump host and access the DVWA from Kali using port forwarding. using the command:
+- <u>Network Setup</u>: Simulate a public and private network using NAT Networks in VirtualBox. Display the IP addresses of the jump host and target Ubuntu machines.
+
+- DVWA Access: Show that DVWA is accessible locally from the target machine and via the jump host.
+
+- SSH Port Forwarding: Demonstrate SSH login from the Kali VM to the jump host and access the DVWA from Kali using port forwarding. using the command:
 ```bash
 ssh -L 8888:<target-host>:80 user@<jump-host> -N.
 ```
-VPN Tunneling: Configure OpenVPN on the jump host to enable full network access from the Kali machine. Show successful VPN setup and access to DVWA via VPN from the Kali machine.
+- VPN Tunneling: Configure OpenVPN on the jump host to enable full network access from the Kali machine. Show successful VPN setup and access to DVWA via VPN from the Kali machine.
 
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week2_video_demo.zip)
