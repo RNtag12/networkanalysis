@@ -15,6 +15,7 @@ This project demonstrates two methods of network traversal: port forwarding and 
 - DVWA
 - OpenVPN
 # Virtual machine setup
+<img src="https://imgur.com/dQV4d8W.png" height="80%" width="80%" alt="VM setup"/> 
 # Demonstration Goals
 <u>Network Setup</u>: Simulate a public and private network using NAT Networks in VirtualBox. Display the IP addresses of the jump host and target Ubuntu machines.
 DVWA Access: Show that DVWA is accessible locally from the target machine and via the jump host.
