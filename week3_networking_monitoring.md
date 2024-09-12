@@ -47,14 +47,13 @@ This project demonstrates how to set up and monitor a corporate network using pf
 ### Configure the OPT1 Interface and firewall rules
 - Enable the OPT1 interface and rename it to Server Network.
 - Use a static IP for the interface (e.g., 10.0.2.254/24) and set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
-- Create rules to allow traffic between the LAN and Server network.
+- Create firewall rules to allow traffic between the LAN and Server network.
 - Ensure proper routing between interfaces.
-### DHCP Configuration
-
-Ensure DHCP is enabled on both LAN and Server interfaces.
-Assign a static IP address for the Server (DVWA).
-Setting Up Snort
-Installing and Configuring Snort
+- Ensure DHCP is enabled on both LAN and Server interfaces.
+- Assign a static IP address for the Server (DVWA).
+  
+  ## Setting Up Snort
+- Installing and Configuring Snort
 
 ### Installing Snort and interface configuration
 
