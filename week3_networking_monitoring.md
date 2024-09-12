@@ -34,29 +34,24 @@ This project demonstrates how to set up and monitor a corporate network using pf
 # Setting up pfSense
 ## Terminal Configuration steps
 ### Assign Interfaces
-WAN for external access.
-LAN for the Developer Network.
-OPT1 for the Server Network.
-### Configure IP Addresses
-Assign the LAN IP address to 192.168.56.254 (Developer Network).
-Assign OPT1 with an appropriate static IP (e.g., 10.0.2.254 for the Server Network).
-Enable DHCP for both interfaces, configuring a range (e.g., 192.168.56.100 - 192.168.56.200 for LAN).
-### Access pfSense Web Interface
-From a browser, navigate to 192.168.56.254 and log in using the credentials admin/pfsense.
-Web Configuration
+- WAN for external access.
+- LAN for the Developer Network.
+- OPT1 for the Server Network.
+### Configure IP Addresses and access pfSense Web Interface
+- Assign the LAN IP address to 192.168.56.254 (Developer Network).
+- Assign OPT1 with an appropriate static IP (e.g., 10.0.2.254 for the Server Network).
+- Enable DHCP for both interfaces, configuring a range (e.g., 192.168.56.100 - 192.168.56.200 for LAN).
+- Access pfSense Web Interface from a browser; navigate to 192.168.56.254 and log in using the credentials admin/pfsense.
+
+## Web Configuration
 ### Configure the OPT1 Interface
-
-Enable the OPT1 interface and rename it to Server Network.
-
-Use a static IP for the interface (e.g., 10.0.2.254/24).
-
-Set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
+- Enable the OPT1 interface and rename it to Server Network.
+- Use a static IP for the interface (e.g., 10.0.2.254/24).
+- Set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
 
 ### Create Firewall Rules
-Create rules to allow traffic between the LAN and Server network.
-
-Ensure proper routing between interfaces.
-
+- Create rules to allow traffic between the LAN and Server network.
+- Ensure proper routing between interfaces.
 ### DHCP Configuration
 
 Ensure DHCP is enabled on both LAN and Server interfaces.
