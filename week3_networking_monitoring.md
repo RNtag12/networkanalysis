@@ -44,11 +44,9 @@ This project demonstrates how to set up and monitor a corporate network using pf
 - Access pfSense Web Interface from a browser; navigate to 192.168.56.254 and log in using the credentials admin/pfsense.
 
 ## Web Configuration
-### Configure the OPT1 Interface
+### Configure the OPT1 Interface and firewall rules
 - Enable the OPT1 interface and rename it to Server Network.
 - Use a static IP for the interface (e.g., 10.0.2.254/24) and set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
-
-### Create Firewall Rules
 - Create rules to allow traffic between the LAN and Server network.
 - Ensure proper routing between interfaces.
 ### DHCP Configuration
