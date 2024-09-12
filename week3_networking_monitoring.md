@@ -52,12 +52,10 @@ This project demonstrates how to set up and monitor a corporate network using pf
 - Ensure DHCP is enabled on both LAN and Server interfaces.
 - Assign a static IP address for the Server (DVWA).
   
-  ## Setting Up Snort
-- Installing and Configuring Snort
+## Setting Up Snort
 
-### Installing Snort and interface configuration
-
-Navigate to System -> Package Manager and install Snort.
+### Interface configuration
+- Navigate to System -> Package Manager and install Snort.
 Snort Interface Configuration:
 
 Configure Snort on the Server Network (OPT1).
