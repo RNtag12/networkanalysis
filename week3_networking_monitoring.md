@@ -79,8 +79,8 @@ Verify that the pings are captured in both Snort alerts and tcpdump.
 
 Use pfSense's firewall rules to block ICMP traffic (ping) between the Developer Network (LAN) and the Server Network (OPT1).
 Test the firewall by attempting to ping DVWA again and verifying that it is blocked.
-Visual Demonstration
-### Demonstration goals
+
+## Demonstration goals
 - Verify that pfSense is providing correct DHCP addresses for the Developer and Server Networks.
 - Ensure that traffic can be monitored and controlled using Snort.
 - Verify successful packet capture with tcpdump on DVWA.
