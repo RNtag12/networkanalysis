@@ -1,0 +1,93 @@
+Network Configuration and Monitoring with pfSense and Snort
+Authors
+@rntagashobotse
+@FrancisGomas
+Project Description
+This project demonstrates how to set up and monitor a corporate network using pfSense and Snort. The objective is to simulate network routing and packet analysis between different network segments, configuring pfSense as a firewall/router with multiple interfaces. Additionally, we will implement Snort as an Intrusion Detection System (IDS) to monitor traffic between the networks.
+
+The lab explores network setup, routing, and packet inspection between hosts using pfSense's network interfaces and monitoring tools.
+
+Tools
+VirtualBox
+pfSense (Router & Firewall)
+Snort (Intrusion Detection System)
+Kali Linux (Penetration Testing VM)
+DVWA (Damn Vulnerable Web Application)
+Network Setup
+Virtual Machine Network Interfaces
+pfSense is configured with three network interfaces:
+
+WAN – Wide Area Network interface connected to the external network (bridged adapter).
+LAN – Developer Network (Public NAT Network).
+OPT1 – Server Network (Private NAT Network).
+In this setup, we simulate a public network for developers and a private network for servers, all controlled via pfSense.
+
+VirtualBox Configuration
+Configure two NAT networks in VirtualBox:
+Developer Network (LAN): Subnet 192.168.56.0/24
+Server Network (OPT1): Subnet 10.0.2.0/24 (or another private subnet)
+Disable DHCP for both networks. DHCP will be managed by pfSense.
+Network Interface Assignments:
+WAN – Bridged adapter.
+LAN – Connected to the Developer Network.
+OPT1 – Connected to the Server Network.
+Setting up pfSense
+Terminal Configuration
+Assign Interfaces:
+WAN for external access.
+LAN for the Developer Network.
+OPT1 for the Server Network.
+Configure IP Addresses:
+Assign the LAN IP address to 192.168.56.254 (Developer Network).
+Assign OPT1 with an appropriate static IP (e.g., 10.0.2.254 for the Server Network).
+Enable DHCP for both interfaces, configuring a range (e.g., 192.168.56.100 - 192.168.56.200 for LAN).
+Access pfSense Web Interface:
+From a browser, navigate to 192.168.56.254 and log in using the credentials admin/pfsense.
+Web Configuration
+Configure the OPT1 Interface:
+
+Enable the OPT1 interface and rename it to Server Network.
+Use a static IP for the interface (e.g., 10.0.2.254/24).
+Set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
+Create Firewall Rules:
+
+Create rules to allow traffic between the LAN and Server network.
+Ensure proper routing between interfaces.
+DHCP Configuration:
+
+Ensure DHCP is enabled on both LAN and Server interfaces.
+Assign a static IP address for the Server (DVWA).
+Setting Up Snort
+Installing and Configuring Snort
+Install Snort:
+
+Navigate to System -> Package Manager and install Snort.
+Snort Interface Configuration:
+
+Configure Snort on the Server Network (OPT1).
+Under Rules, add a custom rule to detect ICMP traffic:
+bash
+Copy code
+alert ip any any -> any any (msg: "ICMP packet detected!"; sid: 1;)
+Start Snort on the Server interface.
+Network Monitoring and Analysis
+Using Snort for Intrusion Detection
+Monitor Traffic:
+
+From the Kali VM, ping the DVWA server.
+Use tcpdump on DVWA to capture the network packets:
+bash
+Copy code
+sudo tcpdump -i enp0s3
+Verify that the pings are captured in both Snort alerts and tcpdump.
+Blocking ICMP Traffic:
+
+Use pfSense's firewall rules to block ICMP traffic (ping) between the Developer Network (LAN) and the Server Network (OPT1).
+Test the firewall by attempting to ping DVWA again and verifying that it is blocked.
+Visual Demonstration
+Video Demonstration: Network Setup and Analysis
+Checkpoints
+Verify that pfSense is providing correct DHCP addresses for the Developer and Server Networks.
+Ensure that traffic can be monitored and controlled using Snort.
+Verify successful packet capture with tcpdump on DVWA.
+Show blocked ICMP traffic after applying firewall rules.
