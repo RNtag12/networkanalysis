@@ -46,8 +46,7 @@ This project demonstrates how to set up and monitor a corporate network using pf
 ## Web Configuration
 ### Configure the OPT1 Interface
 - Enable the OPT1 interface and rename it to Server Network.
-- Use a static IP for the interface (e.g., 10.0.2.254/24).
-- Set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
+- Use a static IP for the interface (e.g., 10.0.2.254/24) and set the DHCP range for the Server network (e.g., 10.0.2.100 - 10.0.2.200).
 
 ### Create Firewall Rules
 - Create rules to allow traffic between the LAN and Server network.
