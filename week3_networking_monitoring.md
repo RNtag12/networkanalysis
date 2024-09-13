@@ -67,10 +67,7 @@ Using Snort for Intrusion Detection
 
 ### Monitor and Blocking ICMP traffic
 - From the Kali VM, ping the DVWA server.
-Use tcpdump on DVWA to capture the network packets:
-bash
-Copy code
-sudo tcpdump -i enp0s3
+- Use tcpdump on DVWA to capture the network packets
 Verify that the pings are captured in both Snort alerts and tcpdump.
 ### Blocking ICMP Traffic
 
