@@ -83,4 +83,6 @@ Test the firewall by attempting to ping DVWA again and verifying that it is bloc
 - Ensure that traffic can be monitored and controlled using Snort.
 - Verify successful packet capture with tcpdump on DVWA.
 - Show blocked ICMP traffic after applying firewall rules.
+ # Visual demonstration
+ - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week3_video_demo.zip)
   
