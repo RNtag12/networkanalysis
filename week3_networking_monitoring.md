@@ -65,9 +65,8 @@ This project demonstrates how to set up and monitor a corporate network using pf
 - Network Monitoring and Analysis
 Using Snort for Intrusion Detection
 
-### Monitor Traffic
-
-From the Kali VM, ping the DVWA server.
+### Monitor and Blocking ICMP traffic
+- From the Kali VM, ping the DVWA server.
 Use tcpdump on DVWA to capture the network packets:
 bash
 Copy code
