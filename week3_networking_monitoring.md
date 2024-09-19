@@ -58,11 +58,9 @@ This project demonstrates how to set up and monitor a corporate network using pf
 - Navigate to System -> Package Manager and install Snort.
 - Snort Interface Configuration:
     - Configure Snort on the Server Network (OPT1).
-        - Under Rules, add a custom rule to detect ICMP traffic:
-        - ```alert ip any any -> any any (msg: "ICMP packet detected!"; sid: 1;)```
-    - Start Snort on the Server interface.
-      
-- Network Monitoring and Analysis
+        - Under Rules, add a custom rule to detect ICMP traffic
+        - Start Snort on the Server interface.
+
 - Using Snort for Intrusion Detection
 
 ### Monitor and Blocking ICMP traffic
