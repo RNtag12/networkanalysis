@@ -9,22 +9,24 @@ This project demonstrates how to set up and monitor a corporate network using pf
 
 # Tools
 - VirtualBox
+- Kali Linux (Penetration Testing VM)
+
+# Security tools
 - pfSense (Router & Firewall)
 - Snort (Intrusion Detection System)
-- Kali Linux (Penetration Testing VM)
 - DVWA (Damn Vulnerable Web Application)
-- Network Setup
-- Virtual Machine Network Interfaces
-- pfSense is configured with three network interfaces to simulate a public network for developers and a private network for servers, all controlled via pfSense:
-    - WAN – Wide Area Network interface connected to the external network (bridged adapter).
-    - LAN – Developer Network (Public NAT Network).
-    - OPT1 – Server Network (Private NAT Network).
+
+
       
 # VirtualBox Configuration
 ## Configure two NAT networks in VirtualBox
 - Developer Network (LAN): Subnet 192.168.56.0/24
 - Server Network (OPT1): Subnet 10.0.2.0/24 (or another private subnet)
 - Disable DHCP for both networks. DHCP will be managed by pfSense.
+      - pfSense is configured with three network interfaces to simulate a public network for developers and a private network for servers, all controlled via pfSense:
+    - WAN – Wide Area Network interface connected to the external network (bridged adapter).
+    - LAN – Developer Network (Public NAT Network).
+    - OPT1 – Server Network (Private NAT Network).
 
 ## Network Interface configurations
 - WAN – Bridged adapter
