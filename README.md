@@ -6,7 +6,7 @@ Practical experience is invaluable for understanding the complexities of network
 - [@rntagashobotse](https://www.github.com/RNtag12)
 - [@FrancisGomas](https://www.github.com/francisgomas)
 
-## Project Description
+# Project Description
 
 The primary goal of these homelab projects is to provide hands-on approach to learning cybersecurity. We aim to explore various facets of network security and we believe that working and learning together allows each author to bring their unique skills and experiences to the table. we can share insights, challenge assumptions, and approach problems from different angles. for the projects we are mainly focusing on:
 
@@ -16,7 +16,9 @@ The primary goal of these homelab projects is to provide hands-on approach to le
 - **Firewall Configuration** 
 - **Intrusion Detection Systems (IDS)** 
 - **Digital Forensics**
-  
+
+## Goals
+
 The homelab projects are designed to demonstrate the following key objectives:
 
 1. **Comprehensive Network Analysis:** Demonstrate the ability to analyze network traffic, identify vulnerabilities, and recognize patterns of malicious activity.
@@ -31,7 +33,7 @@ The homelab projects are designed to demonstrate the following key objectives:
 
 6. **Digital Forensics Investigation:** Present the steps involved in conducting a digital forensics investigation, including data recovery, evidence preservation, and analysis.
 
-### Tools and Technologies
+# Tools and Technologies
 - **Kali Linux** 
 - **Wireshark**
 - **nmap**
@@ -42,15 +44,12 @@ The homelab projects are designed to demonstrate the following key objectives:
 - **nginx**
 - **NAXSI**
 
-## Weekly project
+# Weekly projects
 
  - [Week1_project: Network Analysis with Nmap and Wireshark](https://github.com/RNtag12/networkanalysis/blob/main/week1_nmap_wireshark.md)
  - [Week2_project: DVWA and OpenVPN Setup](https://github.com/RNtag12/pentesting/blob/main/week2_network_traversal.md)
  - [Week3_project: Network Monitoring with pfSense and Snort](https://github.com/RNtag12/pentesting/blob/main/week3_networking_monitoring.md)
 
-
-
-
-### Conclusion
+# Conclusion
 
 These projects not only aim to build practical cybersecurity skills but also serve as a foundation for more advanced exploration in the field. By the end of these projects, we will have a solid understanding of how to protect, analyze, and defend against cyber threats in real-world scenarios.
