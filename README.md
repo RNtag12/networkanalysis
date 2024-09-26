@@ -17,7 +17,7 @@ The primary goal of these homelab projects is to provide hands-on approach to le
 - **Intrusion Detection Systems (IDS)** 
 - **Digital Forensics**
 
-## Goals
+# Demonstration Goals
 
 The homelab projects are designed to demonstrate the following key objectives:
 
