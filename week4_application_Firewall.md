@@ -1,4 +1,4 @@
-# Network Configuration and Monitoring with pfSense and Snort
+# Application Firewall demo with NAXSI
 
 # Authors
 - [@rntagashobotse](https://www.github.com/RNtag12)
