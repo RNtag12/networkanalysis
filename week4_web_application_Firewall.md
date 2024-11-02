@@ -16,13 +16,12 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - NAXSI (Web Application Firewall)
 - PHP-FPM (FastCGI Process Manager for PHP)
 - DVWA (Damn Vulnerable Web Application)
-
-
-
-
-###
-
-## Demonstration goals
+  
+# Demonstration goals
+- Confirm that NGINX and NAXSI are configured correctly and blocking malicious requests
+- Verify access to DVWA and the functionality of XSS and SQLi attack blocking.
+- Show evidence of successful rule modifications by allowing legitimate requests in LearningMode.
+## Required setups and installations
 
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
@@ -30,14 +29,7 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
   
 
 
-Tools
-VirtualBox
-Kali Linux (Penetration Testing VM)
-Security Tools
-NGINX (Web Server)
-NAXSI (Web Application Firewall)
-PHP-FPM (FastCGI Process Manager for PHP)
-DVWA (Damn Vulnerable Web Application)
+
 VirtualBox Configuration
 Setup Ubuntu with NAT Network
 Use Ubuntu 19.04 (pre-configured for NAXSI) with NAT settings.
