@@ -12,7 +12,11 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - Kali Linux (Penetration Testing VM)
 
 # Security tools
-      
+- NGINX (Web Server)
+- NAXSI (Web Application Firewall)
+- PHP-FPM (FastCGI Process Manager for PHP)
+- DVWA (Damn Vulnerable Web Application)
+
 
 
 
@@ -24,10 +28,6 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
  - 
   
-
-Authors
-@rntagashobotse
-@FrancisGomas
 
 
 Tools
