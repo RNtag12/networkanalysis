@@ -32,17 +32,8 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
- - 
-  
 
-
-
-VirtualBox Configuration
-Setup Ubuntu with NAT Network
-Use Ubuntu 19.04 (pre-configured for NAXSI) with NAT settings.
-Create a NAT network for Ubuntu and Kali Linux instances to simulate a secure network environment.
-Configure port forwarding to allow access to DVWA via the host machine.
-Network credentials:
+--- Network credentials:
 Username: ubuntu
 Password: password
 Change Network Adapter
@@ -84,13 +75,4 @@ SQL Injection (SQLi)
 Attempt an SQLi attack on DVWA.
 Observe the blocking behavior in NAXSI and error logs.
 Enable LearningMode again for analysis.
-Demonstration Goals
-Confirm that NGINX and NAXSI are configured correctly and blocking malicious requests.
-Verify access to DVWA and the functionality of XSS and SQLi attack blocking.
-Show evidence of successful rule modifications by allowing legitimate requests in LearningMode.
-Visual Demonstration
-Create a screencast video showing:
-Starting and stopping NGINX services.
-Verifying PHP configuration via the browser.
-Demonstrating blocked XSS and SQLi attacks in error.log.
-Switching to LearningMode to observe the impact on request handling.
+
