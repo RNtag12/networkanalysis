@@ -21,7 +21,14 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - Confirm that NGINX and NAXSI are configured correctly and blocking malicious requests
 - Verify access to DVWA and the functionality of XSS and SQLi attack blocking.
 - Show evidence of successful rule modifications by allowing legitimate requests in LearningMode.
-## Required setups and installations
+  
+# Required setups and installations
+## VirtualBox Configuration
+
+- Setup Ubuntu with NAT Network
+- Use Ubuntu 19.04 (pre-configured for NAXSI) with NAT settings.
+- Create a NAT network for Ubuntu and Kali Linux instances to simulate a secure network environment.
+- Configure port forwarding to allow access to DVWA via the host machine.
 
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
