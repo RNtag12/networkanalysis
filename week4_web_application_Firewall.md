@@ -18,8 +18,8 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - DVWA (Damn Vulnerable Web Application)
   
 # Demonstration goals
-- Confirm that NGINX and NAXSI are configured correctly and blocking malicious requests
-- Verify access to DVWA and the functionality of XSS and SQLi attack blocking.
+- Host DVWA using NGINX with PHP-FPM integration and confirm that NGINX and NAXSI are configured correctly and blocking malicious requests
+- Compile and configure NAXSI as a WAF to filter incoming requests and verify access to DVWA and the functionality of XSS and SQLi attack blocking.
 - Show evidence of successful rule modifications by allowing legitimate requests in LearningMode.
   
 # Required setups and installations
@@ -30,15 +30,15 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - Create a NAT network for Ubuntu and Kali Linux instances to simulate a secure network environment.
 - Configure port forwarding to allow access to DVWA via the host machine.
 
+## Network credentials:
+- Change Network Adapter
+- Switch the network adapter to a "Host-only Adapter" to prevent DVWA from being accessible to other networks, ensuring the environment remains isolated.
+- Setting Up NGINX with NAXSI
+
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
 
---- Network credentials:
-Username: ubuntu
-Password: password
-Change Network Adapter
-Switch the network adapter to a "Host-only Adapter" to prevent DVWA from being accessible to other networks, ensuring the environment remains isolated.
-Setting Up NGINX with NAXSI
+--- 
 Objective Overview
 Host DVWA using NGINX with PHP-FPM integration.
 Compile and configure NAXSI as a WAF to filter incoming requests.
