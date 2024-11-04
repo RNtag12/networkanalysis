@@ -39,11 +39,9 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
 
 --- 
-Objective Overview
-Host DVWA using NGINX with PHP-FPM integration.
-Compile and configure NAXSI as a WAF to filter incoming requests.
-Configure NGINX to serve DVWA and set up NAXSI rules to detect and block malicious requests.
-NGINX and NAXSI Installation
+
+
+# NGINX and NAXSI Installation
 Download and compile NGINX with the NAXSI plugin following online guides, such as DigitalOcean's NAXSI tutorial.
 Test HTTP requests to verify that NAXSI is filtering requests and logging blocked actions in /var/log/nginx/error.log.
 PHP and PHP-FPM Installation
