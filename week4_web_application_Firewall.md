@@ -43,30 +43,12 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - Configure FastCGI for PHP using PHP-FPM (refer to php-fpm.org for setup details).
 - Ensure the directories /etc/nginx/sites-available and /etc/nginx/sites-enabled are created, and configure symbolic links if necessary.
 
+## Configuring NGINX for DVWA
+- Configure NGINX to Point to DVWA
+- Update the default file in /etc/nginx/sites-available to point NGINX to DVWA, ensuring correct PHP and MySQL integration.
+- Verify DVWA accessibility by loading login.php in a browser and logging in with admin/password.
+
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
-
---- 
-
-
-# NGINX and NAXSI Installation
-Configuring NGINX for DVWA
-Configure NGINX to Point to DVWA
-Update the default file in /etc/nginx/sites-available to point NGINX to DVWA, ensuring correct PHP and MySQL integration.
-Verify DVWA accessibility by loading login.php in a browser and logging in with admin/password.
-NAXSI Configuration
-Configure NAXSI rules in naxsi.rules and ensure they are applied in the default NGINX site file.
-Learning Mode
-Enable NAXSI in “LearningMode” to allow monitoring of suspicious requests without blocking them.
-Use error.log to observe which legitimate requests trigger NAXSI alerts and adjust rules to prevent false positives.
-Attack Simulation on DVWA
-XSS and SQL Injection (SQLi) Attacks
-Cross-Site Scripting (XSS)
-Launch a web browser on the Kali VM and open the DVWA interface.
-Attempt an XSS attack in DVWA and observe NGINX’s /var/log/nginx/error.log for blocked actions.
-Disable LearningMode in NAXSI, restart NGINX, and repeat the XSS attempt to observe the response.
-SQL Injection (SQLi)
-Attempt an SQLi attack on DVWA.
-Observe the blocking behavior in NAXSI and error logs.
-Enable LearningMode again for analysis.
+ 
 
