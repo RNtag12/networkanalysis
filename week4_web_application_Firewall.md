@@ -34,6 +34,14 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 - Change Network Adapter
 - Switch the network adapter to a "Host-only Adapter" to prevent DVWA from being accessible to other networks, ensuring the environment remains isolated.
 - Setting Up NGINX with NAXSI
+  
+## Required installation:
+- Download and compile NGINX with the NAXSI plugin following online guides, such as DigitalOcean's NAXSI tutorial.
+- Test HTTP requests to verify that NAXSI is filtering requests and logging blocked actions in /var/log/nginx/error.log.
+- PHP and PHP-FPM Installation
+- Install PHP and PHP-FPM as NGINX does not support PHP natively.
+- Configure FastCGI for PHP using PHP-FPM (refer to php-fpm.org for setup details).
+- Ensure the directories /etc/nginx/sites-available and /etc/nginx/sites-enabled are created, and configure symbolic links if necessary.
 
  # Visual demonstration
  - [Video_Demo](https://github.com/RNtag12/networkanalysis/blob/main/Week4_Video_demo.zip)
@@ -42,23 +50,11 @@ This project demonstrates how to set up a web application firewall (WAF) to filt
 
 
 # NGINX and NAXSI Installation
-Download and compile NGINX with the NAXSI plugin following online guides, such as DigitalOcean's NAXSI tutorial.
-Test HTTP requests to verify that NAXSI is filtering requests and logging blocked actions in /var/log/nginx/error.log.
-PHP and PHP-FPM Installation
-Install PHP and PHP-FPM as NGINX does not support PHP natively.
-Configure FastCGI for PHP using PHP-FPM (refer to php-fpm.org for setup details).
-Ensure the directories /etc/nginx/sites-available and /etc/nginx/sites-enabled are created, and configure symbolic links if necessary.
 Configuring NGINX for DVWA
 Configure NGINX to Point to DVWA
 Update the default file in /etc/nginx/sites-available to point NGINX to DVWA, ensuring correct PHP and MySQL integration.
 Verify DVWA accessibility by loading login.php in a browser and logging in with admin/password.
 NAXSI Configuration
-Initial Setup
-Start and stop services with:
-bash
-Copy code
-sudo systemctl stop php7.*-fpm.service nginx
-sudo systemctl start php7.1-fpm.service nginx
 Configure NAXSI rules in naxsi.rules and ensure they are applied in the default NGINX site file.
 Learning Mode
 Enable NAXSI in “LearningMode” to allow monitoring of suspicious requests without blocking them.
