@@ -5,7 +5,7 @@
 - [@FrancisGomas](https://www.github.com/francisgomas)
 
 # Project Description
-This project demonstrates how to set up a web application firewall (WAF) to filter potential malicious HTTP requests targeting a web server. Unlike a traditional network-layer firewall (e.g., Snort), the WAF in this lab operates at the application layer using NAXSI with NGINX as the web server. We will also configure the Damn Vulnerable Web Application (DVWA) with PHP-FPM and set NAXSI to detect and block attacks, including SQL injection (SQLi) and cross-site scripting (XSS) attempts.
+This project demonstrates how to set up a web application firewall (WAF) to filter potential malicious HTTP requests targeting a web server. Unlike a traditional network-layer firewall (e.g., Snort), the WAF in this lab operates at the application layer using NAXSI with NGINX as the web server. We will also configure the Damn Vulnerable Web Application (DVWA) with PHP-FPM and set NAXSI to detect and block attacks, including SQL injection (SQLi) and cross-site scripting (XSS) attempts.  
 
 # Tools
 - VirtualBox
