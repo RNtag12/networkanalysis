@@ -6,7 +6,7 @@
   
 # Project Description
 This project demonstrates two methods of network traversal: port forwarding and VPN tunneling. The setup includes simulating a public and private network using VirtualBox and configuring DVWA (Damn Vulnerable Web Application) on an Ubuntu VM as the target host. The aim is to establish connections to the target machine from a Kali Linux VM, using a jump host in between for network traversal. This project explores SSH port forwarding and VPN tunneling to access the target, showcasing network interaction and vulnerability exploitation.
-
+ 
 # Tools
 - VirtualBox
 - Ubuntu (Jump Host & Target)
