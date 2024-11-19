@@ -2,7 +2,6 @@
 Practical experience is invaluable for understanding the complexities of network security, and the tools that defend against cyber threats. This collection of homelab projects aims to bridge the gap between theoretical knowledge and hands-on expertise in cybersecurity. Through these projects, we seek to deepen our understanding of network analysis, packet capture, firewall configuration, web application firewall configuration, and digital forensics, all within a controlled, experimental environment (Oracle VirtualBox). 
 
 # Authors
-
 - [@rntagashobotse](https://www.github.com/RNtag12)
 - [@FrancisGomas](https://www.github.com/francisgomas)
 
