@@ -1,18 +1,21 @@
 # Web Application Vulnerability Testing
-#Authors
-Ahmad Azab
-Project Description
-This tutorial explores the process of testing web application vulnerabilities using the Damn Vulnerable Web Application (DVWA) as a testbed. Students will employ security tools to assess the application's weaknesses, focusing on brute-force attacks, SQL injection (SQLi), and XSS vulnerabilities.
+# Authors
+- [@rntagashobotse](https://www.github.com/RNtag12)
+- [@FrancisGomas](https://www.github.com/francisgomas)
 
-Tools
-Kali Linux Tools:
-Nmap
-Dirb
-DirBuster
-Gobuster
-Burp Suite
-SQLMap
-Objectives
+# Project Description
+This project explores the process of testing web application vulnerabilities using the Damn Vulnerable Web Application (DVWA) as a testbed. Students will employ security tools to assess the application's weaknesses, focusing on brute-force attacks, SQL injection (SQLi), and XSS vulnerabilities.
+
+# Tools
+Kali Linux Tools:\
+- Nmap
+- Dirb
+- DirBuster
+- Gobuster
+- Burp Suite
+- SQLMap
+
+# Objectives
 Demonstrate vulnerability assessment of DVWA using automated tools.
 Simulate and analyze brute-force attacks on low-security DVWA settings.
 Exploit SQLi vulnerabilities using SQLMap.
