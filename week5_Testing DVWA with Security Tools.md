@@ -7,7 +7,7 @@
 This project explores the process of testing web application vulnerabilities using the Damn Vulnerable Web Application (DVWA) as a testbed. Students will employ security tools to assess the application's weaknesses, focusing on brute-force attacks, SQL injection (SQLi), and XSS vulnerabilities.
 
 # Tools
-Kali Linux Tools:\
+Kali Linux Tools:
 - Nmap
 - Dirb
 - DirBuster
