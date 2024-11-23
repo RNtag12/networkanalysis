@@ -30,32 +30,18 @@ Networking:
 Configure VirtualBox to isolate the DVWA server.
 Security Tools Integration
 Nmap
-Network Scanning:
-Perform scans to enumerate open ports and services on the DVWA host.
+Network Scanning: Perform scans to enumerate open ports and services on the DVWA host.
 Directory Enumeration
-Dirb and DirBuster:
-
-Identify hidden directories or files in the DVWA structure.
-Gobuster:
-
-Use wordlists to enhance enumeration efficiency.
+Dirb and DirBuster: Identify hidden directories or files in the DVWA structure.
+Gobuster:Use wordlists to enhance enumeration efficiency.
 Brute-Force Testing
-Burp Suite:
-Conduct brute-force attacks on DVWA's login interface in low-security mode.
+Burp Suite:Conduct brute-force attacks on DVWA's login interface in low-security mode.
 Refer to the tutorial on brute-force attacks.
 SQL Injection
-SQLMap:
-Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
+SQLMap:Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
 Refer to the SQLMap documentation for advanced exploitation methods.
 Goals and Validation
-Attack Simulations:
-Execute common web attacks, such as SQLi and XSS, using tools in Kali Linux.
-Risk Mitigation:
-Understand defensive mechanisms and mitigation strategies based on observed vulnerabilities.
+Attack Simulations: Execute common web attacks, such as SQLi and XSS, using tools in Kali Linux.
+Risk Mitigation: Understand defensive mechanisms and mitigation strategies based on observed vulnerabilities.
 Resources
-Setup Guides:
-Installing MySQL for DVWA
-Setting Up OWASP ZAP with DVWA
-Supplementary Tutorials:
-DVWA Brute Force Tutorial
-Nmap Documentation
+
