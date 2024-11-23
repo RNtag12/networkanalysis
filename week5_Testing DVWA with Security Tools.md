@@ -16,10 +16,10 @@ Kali Linux Tools:
 - SQLMap
 
 # Objectives
-Demonstrate vulnerability assessment of DVWA using automated tools.
-Simulate and analyze brute-force attacks on low-security DVWA settings.
-Exploit SQLi vulnerabilities using SQLMap.
-Setup and Installation
+- Demonstrate vulnerability assessment of DVWA using automated tools.
+- Simulate and analyze brute-force attacks on low-security DVWA settings.
+- Exploit SQLi vulnerabilities using SQLMap.
+# Setup and Installation
 Virtual Environment Configuration
 Setting Up DVWA:
 
