@@ -22,7 +22,6 @@ Kali Linux Tools:
 # Setup and Installation
 Virtual Environment Configuration
 Setting Up DVWA:
-
 Install DVWA following guidelines on AskUbuntu.
 Integrate DVWA with MySQL and PHP.
 Networking:
