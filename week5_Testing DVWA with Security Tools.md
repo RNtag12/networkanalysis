@@ -24,17 +24,15 @@ Virtual Environment Configuration
 Setting Up DVWA:
 Install DVWA following guidelines on AskUbuntu.
 Integrate DVWA with MySQL and PHP.
-Networking:
-
-Configure VirtualBox to isolate the DVWA server.
-Security Tools Integration
-Nmap
-Network Scanning: Perform scans to enumerate open ports and services on the DVWA host.
-Directory Enumeration
-Dirb and DirBuster: Identify hidden directories or files in the DVWA structure.
-Gobuster:Use wordlists to enhance enumeration efficiency.
+# Networking
+- Configure VirtualBox to isolate the DVWA server.
+- Security Tools Integration
+# Tools used
+- <b>Nmap </b> for Network Scanning: Perform scans to enumerate open ports and services on the DVWA host.
+- <b>Dirb and DirBuster</b> for Directory Enumeration: Identify hidden directories or files in the DVWA structure.
+  - Gobuster: Use wordlists to enhance enumeration efficiency.
 Brute-Force Testing
-Burp Suite:Conduct brute-force attacks on DVWA's login interface in low-security mode.
+Burp Suite for :Conduct brute-force attacks on DVWA's login interface in low-security mode.
 Refer to the tutorial on brute-force attacks.
 SQL Injection
 SQLMap:Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
