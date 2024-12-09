@@ -31,11 +31,9 @@ Integrate DVWA with MySQL and PHP.
 - <b>Nmap </b> for Network Scanning: Perform scans to enumerate open ports and services on the DVWA host.
 - <b>Dirb and DirBuster</b> for Directory Enumeration: Identify hidden directories or files in the DVWA structure.
   - Gobuster: Use wordlists to enhance enumeration efficiency.
-
 - Burp Suite for Brute-Force Testing:Conduct brute-force attacks on DVWA's login interface in low-security mode.
+- SQLMap SQL Injection:Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
 
-SQLMap SQL Injection:Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
-Refer to the SQLMap documentation for advanced exploitation methods.
 Goals and Validation
 Attack Simulations: Execute common web attacks, such as SQLi and XSS, using tools in Kali Linux.
 Risk Mitigation: Understand defensive mechanisms and mitigation strategies based on observed vulnerabilities.
