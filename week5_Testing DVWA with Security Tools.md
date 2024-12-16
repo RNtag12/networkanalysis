@@ -34,7 +34,7 @@ Integrate DVWA with MySQL and PHP.
 - Burp Suite for Brute-Force Testing:Conduct brute-force attacks on DVWA's login interface in low-security mode.
 - SQLMap SQL Injection:Exploit DVWA SQLi vulnerabilities using the tool's automated techniques.
 
-Goals and Validation
+## Goals and Validation
 Attack Simulations: Execute common web attacks, such as SQLi and XSS, using tools in Kali Linux.
 Risk Mitigation: Understand defensive mechanisms and mitigation strategies based on observed vulnerabilities.
 Resources
