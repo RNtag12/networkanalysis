@@ -1,5 +1,5 @@
 # Methods of network traversal
-# Authors
+# Contributors
 
 - [@rntagashobotse](https://www.github.com/RNtag12)
 - [@FrancisGomas](https://www.github.com/francisgomas)
