@@ -48,7 +48,7 @@ The homelab projects are designed to demonstrate the following key objectives:
  - [Week1_project: Network Analysis with Nmap and Wireshark](https://github.com/RNtag12/networkanalysis/blob/main/week1_nmap_wireshark.md)
  - [Week2_project: DVWA and OpenVPN Setup](https://github.com/RNtag12/pentesting/blob/main/week2_network_traversal.md)
  - [Week3_project: Network Monitoring with pfSense and Snort](https://github.com/RNtag12/pentesting/blob/main/week3_networking_monitoring.md)
- - [Week4 project: Testing DVWA with Security Tools](https://github.com/RNtag12/pentesting/blob/main/week5_Testing%20DVWA%20with%20Security%20Tools.md)
+ - [Week4 project: Web Application Firewall](https://github.com/RNtag12/pentesting/blob/main/week4_web_application_Firewall.md)
  - [Week5 project: Testing DVWA with Security Tools](https://github.com/RNtag12/pentesting/blob/main/week5_Testing%20DVWA%20with%20Security%20Tools.md)
 
 # Conclusion
